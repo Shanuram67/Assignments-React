@@ -1,0 +1,41 @@
+.image-post {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  text-align: left;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.image-post:hover {
+  transform: scale(1.05);
+}
+
+.image-post img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button.active {
+  color: red;
+}
+
+button:hover {
+  color: blue;
+}
