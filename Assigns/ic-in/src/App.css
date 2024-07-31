@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.images div {
+  margin: 10px;
+  text-align: center;
+}
+
+.images img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.about img {
+  width: 300px;
+  height: auto;
+}
+
+.contact {
+  text-align: left;
+  margin: 20px;
+}

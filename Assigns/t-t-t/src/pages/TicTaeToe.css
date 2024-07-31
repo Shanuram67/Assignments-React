@@ -1,0 +1,29 @@
+
+@import 'tailwindcss/tailwind.css';
+@import 'daisyui/dist/full.css';
+
+/* Additional custom styles */
+
+
+/* TicTacToe.css */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  button {
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  .grid {
+    gap: 1rem;
+  }
+  
+  .bg-gray-200 {
+    background-color: #e2e8f0;
+  }
+  

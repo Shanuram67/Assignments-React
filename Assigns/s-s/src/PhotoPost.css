@@ -1,0 +1,64 @@
+.photo-post {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+
+
+h1{
+    align-items: center;
+    color: crimson;
+    font-size: xx-large;
+    text-align: center;
+    background-color: black;
+}
+
+
+  .photo {
+    background-color: chocolate;
+    width: 100%;
+    height: auto;
+  }
+  
+  .buttons button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    color: darkgreen;
+  }
+  
+  .comment-section {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .comment-section input {
+    width: calc(100% - 100px);
+    padding: 5px;
+  }
+  
+  .comment-section button {
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  .comment {
+    border-top: 1px solid #ddd;
+    padding: 5px;
+  }
+  
+  .share-section {
+    margin-top: 20px;
+    font-style: italic;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+  }
+  
